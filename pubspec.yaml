@@ -1,0 +1,31 @@
+name: ghost_mesh_offline
+description: Ghost Mesh Offline — P2P Bluetooth/WebRTC messenger, no server
+publish_to: 'none'
+version: 3.0.0+3
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.31.15
+  flutter_webrtc: ^0.10.0
+  permission_handler: ^11.3.1
+  device_info_plus: ^10.1.0
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  flutter_local_notifications: ^17.2.2
+  provider: ^6.1.2
+  web_socket_channel: ^3.0.1
+  uuid: ^4.4.0
+  shared_preferences: ^2.3.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
